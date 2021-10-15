@@ -6,3 +6,50 @@
     list-style-type: none;
 }
 
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/mixed-vegetables.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.logo{
+    font-family: 'Exo', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.qasa{
+    color: rgb(163, 0, 15);
+}
+
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+    border-bottom: 1px solid rgb(98, 98, 98);
+    padding-bottom: 5px;
+}
