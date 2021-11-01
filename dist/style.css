@@ -12,7 +12,7 @@
 .content {
   width: 100%;
   height: 100vh;
-  background-image: url(e6dff1e22ecef7e77a9a.jpeg);
+  background-color: #f4e4cd;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,4 +54,133 @@
   color: #636363;
   border-bottom: 1px solid #626262;
   padding-bottom: 5px;
+}
+
+.main-content {
+  display: flex;
+  height: 100%;
+}
+
+.hero-wrapper {
+  align-self: center;
+}
+
+.hero-content-wrapper {
+  width: 45rem;
+  height: 20rem;
+  margin-left: 20rem;
+  border: 4px solid #ebd8af;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.headline {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #a3000f;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 5px;
+}
+
+.subheadline {
+  font-family: "Times New Roman", Times, serif;
+  color: #ebd8af;
+  text-shadow: 1px 1px 1px black;
+  font-size: 22px;
+}
+
+.menu-content-wrapper {
+  width: 80%;
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-headline {
+  align-self: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.menu-headline-text {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.menu-text-wrapper {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.menu-text {
+  width: 40%;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.menu-content {
+  display: flex;
+  width: 90%;
+  margin: 4rem auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.appetizers {
+  background-image: url(a33f9b206f7441867819.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.salad {
+  background-image: url(0d5b65d1795591f1cfd3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-courses {
+  background-image: url(31974ff069d45e7d9c02.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.drinks {
+  background-image: url(3bef646d1a7e4fdc81c1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item-name {
+  width: 100%;
+  background-color: #fff;
+  opacity: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
 }
