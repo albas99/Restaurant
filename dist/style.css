@@ -93,21 +93,21 @@
   font-size: 22px;
 }
 
-.menu-content-wrapper {
+.menu-content-wrapper, .chef-content-wrapper {
   width: 80%;
   margin: 6rem auto;
   display: flex;
   flex-direction: column;
 }
 
-.menu-headline {
+.menu-headline, .chef-headline {
   align-self: center;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.menu-headline-text {
+.menu-headline-text, .chef-headline-text {
   font-family: "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 44px;
@@ -183,4 +183,71 @@
   justify-content: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 26px;
+}
+
+.chef-content {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chef-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chef {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.chef-details {
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.chef-name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.chef-position {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about-chef {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.chief-chef {
+  background: url(23a43295b370b33b7bb2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.senior-chef-1 {
+  background: url(df1468e1976072ebd8ba.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.senior-chef-2 {
+  background: url(030e30977cfafe587de4.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
