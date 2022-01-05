@@ -10,6 +10,8 @@ function switchTab() {
     content.addEventListener("click", (e)=> {
         if (e.target.id === 'home') {
             content.innerHTML = "";
+            content.style.background = "url(../assets/mixed-vegetables.jpeg) center no-repeat";
+            content.style.backgroundSize = "cover";
             displayHomePage();
         }
         if (e.target.id === 'menu') {
