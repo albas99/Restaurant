@@ -20,6 +20,7 @@ function switchTab() {
         }
         if (e.target.id === 'chefs') {
             content.innerHTML = "";
+            content.style.background = "rgb(255, 255, 255)";
             displayChefPage();
         }
     })

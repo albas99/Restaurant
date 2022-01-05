@@ -15,6 +15,7 @@ function addChefsContent() {
     chefContentWrapper.append(chefHeadline);
 
     const chefContent = document.createElement('div');
+    chefContent.classList.add('chef-content');
     chefContentWrapper.append(chefContent);
     
     // CHIEF CHEF
@@ -37,11 +38,11 @@ function addChefsContent() {
     chiefChefPosition.innerText = "(Chief-chef)";
     chiefChefName.innerText = "Sam Zhang";
 
-    chiefChefDetails.append(aboutChiefChef);
-    chiefChefDetails.append(chiefChefPosition);
     chiefChefDetails.append(chiefChefName);
-    chefContent.append(chiefChefDetails);
-    chefContent.append(chiefChef);
+    chiefChefDetails.append(chiefChefPosition);
+    chiefChefDetails.append(aboutChiefChef);
+    chiefChefItem.append(chiefChef);
+    chiefChefItem.append(chiefChefDetails);
     chefContent.append(chiefChefItem);
 
 
@@ -64,13 +65,13 @@ function addChefsContent() {
     firstChefPosition.innerText = "(Senior-chef)";
     firstChefName.innerText = "Matumbi Ngosa";
 
-    firstChefDetails.append(aboutFirstChef);
-    firstChefDetails.append(firstChefPosition);
     firstChefDetails.append(firstChefName);
-    chefContent.append(firstChefDetails);
-    chefContent.append(firstChef);
+    firstChefDetails.append(firstChefPosition);
+    firstChefDetails.append(aboutFirstChef);
+    firstChefItem.append(firstChef);
+    firstChefItem.append(firstChefDetails);
     chefContent.append(firstChefItem);
-
+    
     const secondChefItem = document.createElement('div');
     const secondChef = document.createElement("div");
     const secondChefDetails = document.createElement("div");
@@ -90,11 +91,11 @@ function addChefsContent() {
     secondChefPosition.innerText = "(Senior-chef)";
     secondChefName.innerText = "Antonio Costas";
 
-    secondChefDetails.append(aboutSecondChef);
-    secondChefDetails.append(secondChefPosition);
     secondChefDetails.append(secondChefName);
-    chefContent.append(secondChefDetails);
-    chefContent.append(secondChef);
+    secondChefDetails.append(secondChefPosition);
+    secondChefDetails.append(aboutSecondChef);
+    secondChefItem.append(secondChef);
+    secondChefItem.append(secondChefDetails);
     chefContent.append(secondChefItem);
 
     main.appendChild(chefContentWrapper);
