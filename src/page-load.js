@@ -1,6 +1,7 @@
 import { createHeader } from "./header";
 import { addHeroContents } from "./homePage";
 import { addMenuContents } from "./menuPage";
+import { addChefsContent } from "./chefsPage";
 
 window.addEventListener("load", displayHomePage);
 
@@ -14,6 +15,11 @@ function displayMenuPage() {
     addMenuContents();
 }
 
+function displayChefPage() {
+    createHeader();
+    addChefsContent();
+}
+
 // displayContent()
 
-export { displayHomePage, displayMenuPage};
+export { displayHomePage, displayMenuPage, displayChefPage};
