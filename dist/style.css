@@ -12,7 +12,7 @@
 .content {
   width: 100%;
   height: 100vh;
-  background-color: #f4e4cd;
+  background-image: url(e6dff1e22ecef7e77a9a.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   text-align: center;
 }
 
-.qasa {
+.rosa {
   color: #a3000f;
 }
 
@@ -54,6 +54,7 @@
   color: #636363;
   border-bottom: 1px solid #626262;
   padding-bottom: 5px;
+  cursor: pointer;
 }
 
 .main-content {
