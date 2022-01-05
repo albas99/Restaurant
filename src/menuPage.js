@@ -2,6 +2,7 @@ import { content } from "./header";
 // import { main } from "./homePage";
 
 function addMenuContents() {
+    const main = document.createElement("main");
     const menuContentWrapper = document.createElement('div');
     const menuHeadline = document.createElement('div');
     const menuHeadlineText = document.createElement('h2');
@@ -33,10 +34,10 @@ function addMenuContents() {
     salad.classList.add('menu-item', 'salad');
     mainCourses.classList.add('menu-item', 'main-courses');
     drinks.classList.add('menu-item', 'drinks');
-    appetizerText.classList.add('menu-item');
-    saladText.classList.add('menu-item');
-    mainCoursesText.classList.add('menu-item');
-    drinksText.classList.add('menu-item');
+    appetizerText.classList.add('item-name');
+    saladText.classList.add('item-name');
+    mainCoursesText.classList.add('item-name');
+    drinksText.classList.add('item-name');
 
     drinksText.innerText = 'Drinks';
     mainCoursesText.innerText = 'Main Courses';
@@ -69,8 +70,8 @@ function addMenuContents() {
     menuContentWrapper.append(menuTextWrapper);
     menuContentWrapper.append(menuContent);
 
-    // main.append(menuContentWrapper);
-    content.appendChild(menuContentWrapper);
+    main.append(menuContentWrapper);
+    content.appendChild(main);
 }
 
 export { addMenuContents };
