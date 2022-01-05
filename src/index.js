@@ -14,6 +14,7 @@ function switchTab() {
         }
         if (e.target.id === 'menu') {
             content.innerHTML = "";
+            content.style.background = "rgb(244, 228, 205)";
             displayMenuPage();
         }
     })
