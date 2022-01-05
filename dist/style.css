@@ -96,14 +96,14 @@
 
 .menu-content-wrapper, .chef-content-wrapper {
   width: 80%;
-  margin: 6rem auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
 .menu-headline, .chef-headline {
   align-self: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }

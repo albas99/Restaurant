@@ -100,14 +100,14 @@
 .menu-content-wrapper, .chef-content-wrapper{
     // border: 1px solid black;
     width: 80%;
-    margin: 6rem auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 .menu-headline, .chef-headline{
     align-self: center;
-    margin-top: 3rem;
+    margin-top: 8rem;
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -146,7 +146,7 @@
 .menu-item{
     width: 250px;
     height: 250px;
-
+    
     display: flex;
     align-items: center;
 }
