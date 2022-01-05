@@ -25,6 +25,10 @@ function createHeader() {
     homeLink.classList.add('nav-link');
     menuLink.classList.add('nav-link');
     chefLink.classList.add('nav-link');
+
+    homeLink.setAttribute('id', 'home');
+    menuLink.setAttribute('id', 'menu');
+    chefLink.setAttribute('id', 'chefs');
     
     homeLink.innerHTML = "Home";
     menuLink.innerHTML = "Menu";

@@ -1,20 +1,19 @@
 import { createHeader } from "./header";
 import { addHeroContents } from "./homePage";
-// import { addMenuContents } from "./menuPage";
+import { addMenuContents } from "./menuPage";
 
-window.addEventListener("load", displayContent);
+window.addEventListener("load", displayHomePage);
 
-function displayContent() {
+function displayHomePage() {
     createHeader();
-    addHeroContents();
+    addHeroContents();  
+}
 
-    const homeLink = document.querySelector('.nav-link');
-    // console.log(homeLink.innerHTML);
-    
-    // addMenuContents();
-    
+function displayMenuPage() {
+    createHeader();
+    addMenuContents();
 }
 
 // displayContent()
 
-export { displayContent };
+export { displayHomePage, displayMenuPage};

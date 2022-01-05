@@ -1,14 +1,23 @@
-import { displayContent } from "./page-load";
+import { displayHomePage, displayMenuPage } from "./page-load";
 import { createHeader } from "./header";
 import { addHeroContents } from "./homePage";
 import { addMenuContents } from "./menuPage";
+import { content } from "./header";
 
 // displayContent();
 
 function switchTab() {
-    const homeLink = document.querySelector('.nav-link');
-    console.log(homeLink);
-    homeLink.addEventListener('click', console.log("clicked"));
+    content.addEventListener("click", (e)=> {
+        if (e.target.id === 'home') {
+            content.innerHTML = "";
+            displayHomePage();
+        }
+        if (e.target.id === 'menu') {
+            content.innerHTML = "";
+            displayMenuPage();
+        }
+    })
+    
 }
 
-// switchTab();
+switchTab();
